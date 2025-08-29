@@ -1,3 +1,4 @@
-Base directory: frontend
-Build command: npm run build
-Publish directory: frontend/dist
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "frontend/dist"
