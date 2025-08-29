@@ -1,6 +1,5 @@
 export const fetch_locations = async() => {
-  const url = "http://localhost:5050/"
-  const response = await fetch(url)
+  const response = await fetch("https://budlr-schema-generator.onrender.com")
   if(!response.ok) {
     throw new Error("Data is not fetched");
   }
